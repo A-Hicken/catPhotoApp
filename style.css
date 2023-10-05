@@ -5,14 +5,14 @@ h1 {
   font-size: 200px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
-  color: chartreuse;
+  color: coral;
 }
 h2 {
   font-size: 75px;
   text-align: center;
   font-family: "Courier New", Courier, monospace;
   font-weight: 900;
-  color: coral;
+  color: chartreuse;
 }
 p {
   font-size: 20px;
@@ -25,4 +25,58 @@ p {
   margin-left: auto;
   margin-right: auto;
   width: 25%;
+}
+h3 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  color: coral;
+  font-size: 30px;
+}
+ul {
+  font-size: 20px;
+  list-style: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  color: chartreuse;
+}
+ol {
+  font-size: 20px;
+  list-style: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  color: chartreuse;
+}
+figcaption {
+  font-size: smaller;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande";
+  color: chartreuse;
+}
+.loveContainer {
+  display: inline-block;
+  margin-left: 300px;
+  margin-right: 200px;
+}
+.love {
+  text-align: center;
+}
+.hateContainer {
+  display: inline-block;
+  margin-left: 200px;
+  margin_right: 300px;
+}
+.hate {
+  text-align: center;
+}
+.formContainer {
+  display: block;
+  margin-left: 10px;
+}
+.form {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  border: 10px solid coral;
+  padding: 10px;
 }
